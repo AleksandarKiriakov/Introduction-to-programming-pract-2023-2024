@@ -21,7 +21,9 @@ int countOfUniqueSimpleDivisors(int n)
 	{
 		if (n % i == 0 && isPrime(i))
 		{
-			n /= i;
+			
+			n /= i; //do while(n % i == 0) could be used here if we decide that repeating divisors are valid and count as one
+			
 			divisorsCount++;
 
 			if (n == 1)
