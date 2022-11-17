@@ -20,7 +20,7 @@ void print(char arr[][maxSize], int size)
 int main()
 {
 	int size;
-	char arr[50][50];
+	char arr[maxSize][maxSize];
 
 	cin >> size;
 
