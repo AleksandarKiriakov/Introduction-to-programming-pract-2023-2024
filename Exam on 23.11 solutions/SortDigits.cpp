@@ -73,5 +73,6 @@ int main()
 	std::cin >> n;
 	int res = 0;
 	sortNumber(n, res);
+
 }
 
