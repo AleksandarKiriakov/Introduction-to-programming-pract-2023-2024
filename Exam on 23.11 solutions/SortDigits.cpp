@@ -1,41 +1,35 @@
 ﻿#include <iostream>
 
 
-int reverse(int n) {
+int countingDigitsAndReverseNumber(int& n) {
 
-	int rem = 0;
-	int reverse = 0;
+	int countOfDigits = 0;
+	int nSave = n;
+	n = 0;
 
-	while (n != 0)
+	while (nSave != 0)
 	{
-		rem = n % 10;
-		(reverse *= 10) += rem;
-		n /= 10;
+
+		(n *= 10) += nSave % 10;
+		nSave /= 10;
+		countOfDigits++;
+
 	}
 
-	return reverse;
+	return countOfDigits;
 }
-int countDigits(int n) {
 
-	int counter = 0;
-
-	while (n != 0) {
-		counter++;
-		n /= 10;
-	}
-
-	return counter;
-}
 
 void print(int digits, int counter) {
 
 	for (size_t i = 1; i <= counter; i++)
 	{
+
 		if (i % 2 == 1) //i % 2 == 0 if you want to encrypt even index
 		{
 			std::cout << "$";
 		}
-		else 
+		else
 		{
 			std::cout << digits % 10;
 		}
@@ -45,8 +39,8 @@ void print(int digits, int counter) {
 }
 
 void sortNumber(const int& n, int& res) {
-	int nSave = 0;
 
+	int nSave = 0;
 	for (size_t i = 9; i > 0; i--)
 	{
 		nSave = n;
@@ -63,8 +57,9 @@ void sortNumber(const int& n, int& res) {
 			nSave /= 10;
 		}
 	}
-	reverse(res);
-	print(res, countDigits(n));
+
+	print(res, countingDigitsAndReverseNumber(res));
+
 }
 
 int main()
@@ -75,4 +70,3 @@ int main()
 	sortNumber(n, res);
 
 }
-
