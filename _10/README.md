@@ -45,6 +45,3 @@ lowercaseStr съдържа *само малките букви* от подад
 
  *Вход: Hello 9 today is 54 very0 good day.  
 Изход: Hello nine today is fivefour veryzero good day.*  
-
-*Вход: Hello 9 today is 54 very0 good day.  
-Изход: Hello nine today is fivefour veryzero good day.*  
