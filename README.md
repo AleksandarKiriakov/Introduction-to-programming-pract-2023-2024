@@ -1,10 +1,5 @@
 ## Материали от практикум по "Увод в програмирането"
 #### зимен семестър 2022/2023, Информационни системи
-- [Материали спец. Информационни системи](https://github.com/AleksandarKiriakov/Introduction-to-programming-pract-2022-2023)
-
-## Екип
-| [Александър Киряков](https://github.com/AleksandarKiriakov)  | [Александър Банков](https://github.com/AlexandarBankov) | [Contributors](https://github.com/AleksandarKiriakov/Introduction-to-programming-pract-2022-2023/graphs/contributors)|
-| --- | --- | --- | --- | --- |
 
 <br>
 
