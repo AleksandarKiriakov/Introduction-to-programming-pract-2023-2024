@@ -5,9 +5,6 @@
 
 ## Github workflow
 
-0. Star the repository
-![star the repo](images/star-the-repo.png)
-
 1. Fork the repository 
     - [How to fork a repository.](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
