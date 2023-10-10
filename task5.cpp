@@ -12,10 +12,9 @@ int main() {
 	int third;
 	cin >> third;
 
-	bool isSecondGreaterThanFirst = second > first;
-	bool isThirdGreaterThanSecond = third > second;
-	bool isAscending = isSecondGreaterThanFirst && isThirdGreaterThanSecond;
-
+	bool isAscending = second > first && third > second;
+	
 	cout << isAscending << endl;
+
 	return 0;
 }
