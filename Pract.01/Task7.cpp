@@ -13,7 +13,7 @@ int main()
     cout << "Bananas: ";
     cin >> bananas;
 
-    cout << "Pesho, don't forget to buy "<<apples<<" apples, "<<pears<<" pears and "<<bananas<<" bananas!";
+    cout << "Pesho, don't forget to buy " << apples << " apples, " << pears << " pears and " << bananas << " bananas!";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

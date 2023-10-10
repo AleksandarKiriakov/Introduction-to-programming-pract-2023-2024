@@ -10,7 +10,7 @@ int main()
     cout << "r: ";
     cin >> r;
 
-    cout << "d: " << r * 2; //I assume that length of a circle means diameter 
+    cout << "P: " << r * 2 * pi;
     cout << "S: " << pi * r * r;
 }
 
