@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     double bgn;
-    cout << "Please enter amount of money in BGN"<<endl;
+    cout << "Please enter amount of money in BGN" <<endl;
     cin >> bgn;
     double toEuro = bgn * 0.51;
     double toUSD = bgn * 0.54;
-    cout << "Euro: "<<toEuro<<endl<<"USD: " << toUSD;
+    cout <<"Euro: " << toEuro << endl <<"USD: " << toUSD;
 }
 
