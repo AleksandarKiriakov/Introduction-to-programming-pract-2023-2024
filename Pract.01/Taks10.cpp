@@ -5,16 +5,16 @@ using namespace std;
 
 int main()
 {
-    int firstNumber, secondNumber;
+    int firstNumber, secondNumber, thirdNumber;
     cout << "first number: ";
     cin >> firstNumber;
     cout << "second number: ";
     cin >> secondNumber;
 
-    secondNumber = secondNumber + firstNumber;
-    firstNumber = secondNumber  - firstNumber;
-    secondNumber = secondNumber - firstNumber;
-    cout << "first number: " << firstNumber << endl << "second number: " << b;
+    thirdNumber = firstNumber;
+    firstNumber = secondNumber;
+    secondNumber = firstNumber
+    cout << "first number: " << firstNumber << endl << "second number: " << secondNumber;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
