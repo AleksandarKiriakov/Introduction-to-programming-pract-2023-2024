@@ -14,6 +14,6 @@ int main() {
 	int bananas;
 	cin >> bananas;
 
-	cout << "Pesho, don\'t forget to buy " << apples << " apples, " << pears << " pears, " << bananas << " bananas!" << endl;
+	cout << "Pesho, don\'t forget to buy " << apples << " apples, " << pears << " pears and " << bananas << " bananas!" << endl;
 	return 0;
 }
