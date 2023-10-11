@@ -3,15 +3,17 @@
 using namespace std;
 
 int main() {
-    int x = 10;
-    int y = 56;
-    int help;
+    int first = 10;
+    int second = 56;
+    int temp;
 
-    help = x;
-    x = y;
-    y = help;
+    cout << "Before swapping: " << endl << "first = " << first << endl << "second = " << second << endl;
 
-    cout << "After swapping: " << endl << "x = " << x << endl << "y = " << y << endl;
+    temp = first;
+    first = second;
+    second = temp;
+
+    cout << "After swapping: " << endl << "first = " << first << endl << "second = " << second << endl;
 
     return 0;
 }
