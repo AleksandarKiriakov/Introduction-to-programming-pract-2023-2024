@@ -23,9 +23,26 @@ int main()
     cout << "Enter 1 if a friend comming to help and 0 if Traicho will cook alone:  : ";
     cin >> isFriendCommingToHelp;
 
-    bool isCookingASalad = tomatoes >= 1 && peppers >= 2 && carrots >= 4 && olives >= 3 && potatoes >= 3 && flavoringAgents >= 150;
-    bool isCookingASoap = tomatoes >= 2 && peppers >= 3 && carrots >= 5 && olives >= 6 && potatoes >= 10 && flavoringAgents >= 200 && isFriendCommingToHelp;
-    bool isCookingACasserole = tomatoes >= 5 && peppers >= 6 && carrots >= 12 && olives >= 7 && potatoes >= 12 && flavoringAgents >= 300 && isFriendCommingToHelp;
+    bool isCookingASalad = tomatoes >= 1 
+        && peppers >= 2 
+        && carrots >= 4 
+        && olives >= 3 
+        && potatoes >= 3 
+        && flavoringAgents >= 150;
+    bool isCookingASoap = tomatoes >= 2 
+        && peppers >= 3 
+        && carrots >= 5 
+        && olives >= 6 
+        && potatoes >= 10 
+        && flavoringAgents >= 200 
+        && isFriendCommingToHelp;
+    bool isCookingACasserole = tomatoes >= 5 
+        && peppers >= 6 
+        && carrots >= 12 
+        && olives >= 7 
+        && potatoes >= 12 
+        && flavoringAgents >= 300 
+        && isFriendCommingToHelp;
 
     if (isCookingACasserole) {
         cout << "Traicho will eat casserole tonight!";

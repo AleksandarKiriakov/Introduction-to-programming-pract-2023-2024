@@ -9,18 +9,18 @@ int main()
     cout << "Enter a number:";
     cin >> number;
 
-    if (number >= 5) {
-        cout << 'V';
-        number -= 5;
-    }
-
     switch (number)
     {
-    case 4: cout << "IIII"; break;
+    case 9: cout << "IX"; break;
+    case 8: cout << "VIII"; break;
+    case 7: cout << "VII"; break;
+    case 6: cout << "VI"; break;
+    case 5: cout << "V"; break;
+    case 4: cout << "IV"; break;
     case 3: cout << "III"; break;
     case 2: cout << "II"; break;
     case 1: cout << "I"; break;
-    default: break;
+    default: cout << "Number is not in the range [1,9]"; break;
     }
 }
 

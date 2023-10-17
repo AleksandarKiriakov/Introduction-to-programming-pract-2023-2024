@@ -19,14 +19,14 @@ int main()
     case '+': cout << firstNumber + secondNumber; break;
     case '-': cout << firstNumber - secondNumber; break;
     case '*': cout << firstNumber * secondNumber; break;
-    case '/': {
+    case '/':
         if (secondNumber != 0) {
             cout << firstNumber / (double)secondNumber;
         }
         else {
             cout << "Second number cannot be zero";
         }
-    }
+        break;
     default: break;
     };
 }

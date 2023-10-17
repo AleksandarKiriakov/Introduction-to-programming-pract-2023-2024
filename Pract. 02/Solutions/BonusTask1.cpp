@@ -16,9 +16,9 @@ int main()
     cout << "Enter 0 if the laptop doesn't have a SSD and 1 if it have one: ";
     cin >> isContainsSsd;
 
-    bool isTishkoBuyingTheLaptopIfTheLaptopHaveSSD = (price >= 1000 && price <= 1500) && numberUsbPorts >= 3 && ram >= 8 && isContainsSsd;
-    bool isTishkoBuyingTheLaptopIfTheLaptopDoesNotHaveSSD = (price <= 800) && ((ram < 8) || !isContainsSsd);
-    bool isTishkoBuying = isTishkoBuyingTheLaptopIfTheLaptopDoesNotHaveSSD || isTishkoBuyingTheLaptopIfTheLaptopHaveSSD;
+    bool isTishkoBuyingTheExpensiveLaptop = (price >= 1000 && price <= 1500) && numberUsbPorts >= 3 && ram >= 8 && isContainsSsd;
+    bool isTishkoBuyingTheCheaperLaptop = (price <= 800) && ((ram < 8) || !isContainsSsd);
+    bool isTishkoBuying = isTishkoBuyingTheCheaperLaptop || isTishkoBuyingTheExpensiveLaptop;
 
     if (isTishkoBuying) {
         cout << "Tishko is buying";

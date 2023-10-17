@@ -9,12 +9,10 @@ int main()
     cout << "Enter a letter: ";
     cin >> letter;
     if (letter >= 'a' && letter <= 'z') {
-        char upperLetter = letter - ('a' - 'A');
-        cout << upperLetter;
+        cout << letter - ('a' - 'A');
     }
     else if (letter >= 'A' && letter <= 'Z') {
-        char upperLetter = letter + ('a' - 'A');
-        cout << upperLetter;
+        cout << letter + ('a' - 'A');
     }
     else {
         cout << "Invalid character";

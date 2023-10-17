@@ -11,10 +11,11 @@ int main()
     cin >> day;
     cout << "Enter a month: ";
     cin >> month;
+    bool isItHas31days = (month > 6 && month % 2 == 0) || (month < 6 && month % 2 != 0);
     if (!(day == 30 || day == 31 || (day == 28 && month == 2))) {
         cout << "Next date: " << ++day << " " << month;
     }
-    else if ((day == 30 && month % 2 == 0) || (day == 31 && month % 2 != 0)) {
+    else if ((day == 30 && !isItHas31days) || (day == 31 && isItHas31days)) {
         if (month == 12) {
             cout << "Next date: 1 1";
         }
