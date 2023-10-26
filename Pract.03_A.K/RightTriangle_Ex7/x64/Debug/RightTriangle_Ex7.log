@@ -1,0 +1,5 @@
+﻿  RightTriangle_Ex7.cpp
+C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\RightTriangle_Ex7\RightTriangle_Ex7.cpp(14,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\RightTriangle_Ex7\RightTriangle_Ex7.cpp(16,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\RightTriangle_Ex7\RightTriangle_Ex7.cpp(18,31): warning C4018: '<': signed/unsigned mismatch
+  RightTriangle_Ex7.vcxproj -> C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\x64\Debug\RightTriangle_Ex7.exe
