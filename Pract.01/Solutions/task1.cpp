@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-	cout << "Oh what" << endl << "a happy day!" << endl << "Oh yes," << endl << "what a happy day!";
-	return 0;
+int main()
+{
+	int n;
+	cin >> n;
+	bool isEven = n % 2 == 0;
+	cout << isEven;
 }
