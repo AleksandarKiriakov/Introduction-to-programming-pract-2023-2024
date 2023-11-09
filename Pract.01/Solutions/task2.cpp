@@ -1,10 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	float width = 5.4;
-	float height = 7.9;
+int main()
+{
+	int n;
+	cin >> n;
+		
+	int thirdDigit = n % 10;
+	n /= 10; //remove the lastDigit;
 
-	cout << "Perimeter of rectangle: " << width * height << endl;
-	return 0;
+	int secondDigit = n % 10;
+	n /= 10; //remove the lastDigit;
+
+	int firstDigit = n % 10;
+
+	int reversed = thirdDigit * 100 + secondDigit * 10 + firstDigit;
+	reversed++;
+
+	cout << reversed << endl;
 }

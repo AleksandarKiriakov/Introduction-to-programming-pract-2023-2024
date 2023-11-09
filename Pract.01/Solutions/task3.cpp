@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	double leva;
-	cin >> leva;
+int main()
+{
+	char ch;
+	cin >> ch;
+		
+	bool isVowel = ch == 'a' || ch == 'e' || ch == 'o' || ch == 'u' || ch == 'i'
+				|| ch == 'A' || ch == 'E' || ch == 'O' || ch == 'U' || ch == 'I';
 
-	cout << "The sum in euro: " << leva / 1.955 << endl;
-	cout << "The sum in dollars: " << leva / 1.846 << endl;
-	return 0;
+	cout << isVowel << endl;
 }
