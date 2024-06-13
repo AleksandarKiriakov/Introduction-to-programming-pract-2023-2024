@@ -1,0 +1,2 @@
+﻿D:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Solutions_Pract01.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Solutions_Pract01.vcxproj -> C:\Users\kirit\source\repos\Solutions_Pract01_Task01\x64\Debug\Solutions_Pract01_Task01.exe
