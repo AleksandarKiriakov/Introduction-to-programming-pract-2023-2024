@@ -1,0 +1,4 @@
+﻿  SumOfTwos_Ex13.cpp
+C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\SumOfTwos_Ex13\SumOfTwos_Ex13.cpp(33,31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\SumOfTwos_Ex13\SumOfTwos_Ex13.cpp(42,31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  SumOfTwos_Ex13.vcxproj -> C:\Users\viole\Documents\University Work Files\Introduction-to-programming-pract-2023-2024\Pract.03_A.K\x64\Debug\SumOfTwos_Ex13.exe
